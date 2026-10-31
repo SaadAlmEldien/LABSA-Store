@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FAF7F2"/>
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#F3ECE1" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="10 8"/>
+  <!-- Tailored Blazer / Shirt-Jacket Silhouette -->
+  <g transform="translate(120, 130)">
+    <!-- Body & Sleeves -->
+    <path d="M160 40 L400 40 L510 130 L545 640 L455 650 L430 240 L430 690 C430 715 300 725 280 680 C260 725 130 715 130 690 L130 240 L105 650 L15 640 L50 130 Z" fill="#30302E" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Contrast Olive Lapels -->
+    <path d="M210 40 L280 330 L170 210 L195 110 L165 95 Z" fill="#808060" stroke="#30302E" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M350 40 L280 330 L390 210 L365 110 L395 95 Z" fill="#808060" stroke="#30302E" stroke-width="5" stroke-linejoin="round"/>
+    <!-- Pocket Square -->
+    <path d="M345 195 L368 170 L388 195 Z" fill="#C8784C" stroke="#30302E" stroke-width="3"/>
+    <rect x="335" y="195" width="62" height="18" rx="3" fill="#808060" stroke="#30302E" stroke-width="3"/>
+    <!-- Lower Flap Pockets -->
+    <rect x="148" y="470" width="95" height="32" rx="6" fill="#808060" stroke="#30302E" stroke-width="4"/>
+    <rect x="317" y="470" width="95" height="32" rx="6" fill="#808060" stroke="#30302E" stroke-width="4"/>
+    <!-- Center Buttons & Stitch Line -->
+    <line x1="280" y1="330" x2="280" y2="680" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <circle cx="264" cy="390" r="8" fill="#808060" stroke="#E9D7BF" stroke-width="2"/>
+    <circle cx="264" cy="455" r="8" fill="#808060" stroke="#E9D7BF" stroke-width="2"/>
+    <circle cx="264" cy="520" r="8" fill="#808060" stroke="#E9D7BF" stroke-width="2"/>
+  </g>
+</svg>

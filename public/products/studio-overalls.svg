@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FAF7F2"/>
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#F3ECE1" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="10 8"/>
+  <!-- Children's Stitched Cotton Canvas Overalls Silhouette -->
+  <g transform="translate(185, 110)">
+    <!-- Shoulder Straps -->
+    <path d="M115 20 L155 180 L115 180 L85 20 Z" fill="#C8784C" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M315 20 L275 180 L315 180 L345 20 Z" fill="#C8784C" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Metal Strap Buckles -->
+    <rect x="98" y="138" width="44" height="26" rx="5" fill="#E9D7BF" stroke="#30302E" stroke-width="5"/>
+    <rect x="288" y="138" width="44" height="26" rx="5" fill="#E9D7BF" stroke="#30302E" stroke-width="5"/>
+    <!-- Main Bib & Legs Body -->
+    <path d="M90 165 L340 165 L365 360 L395 700 L255 700 L215 470 L175 700 L35 700 L65 360 Z" fill="#C8784C" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Bib Chest Pocket -->
+    <rect x="145" y="210" width="140" height="105" rx="10" fill="#B06238" stroke="#30302E" stroke-width="5"/>
+    <line x1="215" y1="210" x2="215" y2="315" stroke="#30302E" stroke-width="4"/>
+    <rect x="153" y="218" width="124" height="89" rx="6" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="6 5"/>
+    <!-- Waist Seam & Side Buttons -->
+    <line x1="65" y1="365" x2="365" y2="365" stroke="#30302E" stroke-width="5"/>
+    <line x1="70" y1="377" x2="360" y2="377" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <circle cx="92" cy="365" r="8" fill="#808060" stroke="#30302E" stroke-width="3"/>
+    <circle cx="338" cy="365" r="8" fill="#808060" stroke="#30302E" stroke-width="3"/>
+    <!-- Rolled Cuffs -->
+    <rect x="32" y="665" width="146" height="40" rx="6" fill="#B06238" stroke="#30302E" stroke-width="5"/>
+    <rect x="252" y="665" width="146" height="40" rx="6" fill="#B06238" stroke="#30302E" stroke-width="5"/>
+  </g>
+</svg>

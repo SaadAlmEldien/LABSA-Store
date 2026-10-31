@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FAF7F2"/>
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#F3ECE1" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="10 8"/>
+  <!-- Combed Cotton Pocket T-Shirt Silhouette -->
+  <g transform="translate(115, 160)">
+    <path d="M175 60 L395 60 L535 165 L485 285 L425 240 L425 650 L145 650 L145 240 L85 285 L35 165 Z" fill="#30302E" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Ribbed Crewneck Collar -->
+    <path d="M210 60 C210 115 360 115 360 60" fill="#FAF7F2" stroke="#30302E" stroke-width="6"/>
+    <path d="M192 62 C192 136 378 136 378 62" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="7 5"/>
+    <!-- Stitched Chest Pocket -->
+    <path d="M320 205 L388 205 L388 275 L354 295 L320 275 Z" fill="#5C5A54" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="6 4"/>
+    <!-- Hem stitch -->
+    <line x1="155" y1="628" x2="415" y2="628" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="8 6"/>
+  </g>
+</svg>

@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --labsa-white: #FFFFFF;
+  --labsa-canvas: #FAF7F2;
+  --labsa-surface: #F3ECE1;
+  --labsa-cream: #E9D7BF;
+  --labsa-charcoal: #30302E;
+  --labsa-charcoal-muted: #5C5A54;
+  --labsa-olive: #808060;
+  --labsa-olive-dark: #66664B;
+  --labsa-terracotta: #C8784C;
+  --labsa-terracotta-dark: #B06238;
+
+  /* Central Typography Scale & Weight Tokens */
+  --font-stack-arabic: var(--font-arabic), var(--font-english), "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+  --font-stack-english: var(--font-english), var(--font-arabic), "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-weight-body: 400;
+  --font-weight-control: 500;
+  --font-weight-subheading: 600;
+  --font-weight-heading: 700;
+}
+
+@layer base {
+  html {
+    background-color: var(--labsa-canvas);
+    color: var(--labsa-charcoal);
+    scroll-behavior: smooth;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Arabic (RTL) Foundation: IBM Plex Sans Arabic, generous line-height, zero letter-spacing */
+  html[dir='rtl'],
+  html[dir='rtl'] body {
+    font-family: var(--font-stack-arabic);
+    font-weight: var(--font-weight-body);
+    line-height: 1.72;
+    letter-spacing: 0;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  }
+
+  /* Prevent tracking/letter-spacing utilities from breaking Arabic cursive shaping */
+  html[dir='rtl'] *:not([dir='ltr']):not(.font-mono) {
+    letter-spacing: 0 !important;
+  }
+
+  /* English (LTR) Foundation: Manrope, clean contemporary retail rhythm */
+  html[dir='ltr'],
+  html[dir='ltr'] body {
+    font-family: var(--font-stack-english);
+    font-weight: var(--font-weight-body);
+    line-height: 1.62;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  }
+
+  /* Restrained Heading Hierarchy */
+  h1,
+  h2 {
+    font-weight: var(--font-weight-heading);
+    line-height: 1.24;
+  }
+
+  h3,
+  h4 {
+    font-weight: var(--font-weight-subheading);
+    line-height: 1.34;
+  }
+
+  html[dir='rtl'] h1,
+  html[dir='rtl'] h2 {
+    line-height: 1.32;
+  }
+
+  html[dir='rtl'] h3,
+  html[dir='rtl'] h4 {
+    line-height: 1.42;
+  }
+
+  /* Body Copy & Lists: Regular weight (400) for effortless reading */
+  p {
+    font-weight: var(--font-weight-body);
+  }
+
+  /* Controls & Interactive Form Elements: Medium weight (500) */
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-weight: var(--font-weight-control);
+  }
+
+  label {
+    font-weight: var(--font-weight-control);
+    line-height: 1.45;
+  }
+
+  /* Keep micro-labels comfortable to read on mobile & desktop (minimum 12px) */
+  .text-\[10px\],
+  .text-\[11px\] {
+    font-size: 0.75rem !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Accessible keyboard focus ring aligned with Palette B */
+  *:focus-visible {
+    outline: 2px solid var(--labsa-terracotta);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  /* Handcrafted dashed stitch border utility inspired by the LABSA logo */
+  .stitch-border {
+    border-style: dashed;
+    border-color: var(--labsa-cream);
+  }
+}

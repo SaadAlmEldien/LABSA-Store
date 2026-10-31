@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FAF7F2"/>
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#F3ECE1" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="10 8"/>
+  <!-- Button-Down Overshirt / Oxford Shirt Silhouette -->
+  <g transform="translate(115, 140)">
+    <!-- Shirt Body & Long Sleeves -->
+    <path d="M175 70 L395 70 L520 155 L550 620 L470 635 L435 280 L435 675 L135 675 L135 280 L100 635 L20 620 L50 155 Z" fill="#C8784C" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Collar -->
+    <path d="M195 45 L285 115 L220 150 L175 70 Z" fill="#B06238" stroke="#30302E" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M375 45 L285 115 L350 150 L395 70 Z" fill="#B06238" stroke="#30302E" stroke-width="5" stroke-linejoin="round"/>
+    <!-- Center Button Placket -->
+    <rect x="268" y="115" width="34" height="560" fill="#B06238" stroke="#30302E" stroke-width="4"/>
+    <circle cx="285" cy="180" r="6" fill="#E9D7BF" stroke="#30302E" stroke-width="2.5"/>
+    <circle cx="285" cy="270" r="6" fill="#E9D7BF" stroke="#30302E" stroke-width="2.5"/>
+    <circle cx="285" cy="360" r="6" fill="#E9D7BF" stroke="#30302E" stroke-width="2.5"/>
+    <circle cx="285" cy="450" r="6" fill="#E9D7BF" stroke="#30302E" stroke-width="2.5"/>
+    <circle cx="285" cy="540" r="6" fill="#E9D7BF" stroke="#30302E" stroke-width="2.5"/>
+    <!-- Dual Chest Pockets -->
+    <rect x="162" y="220" width="82" height="92" rx="6" fill="#B06238" stroke="#30302E" stroke-width="4"/>
+    <rect x="326" y="220" width="82" height="92" rx="6" fill="#B06238" stroke="#30302E" stroke-width="4"/>
+    <line x1="170" y1="248" x2="236" y2="248" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <line x1="334" y1="248" x2="400" y2="248" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="6 4"/>
+  </g>
+</svg>

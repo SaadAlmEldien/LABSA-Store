@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FAF7F2"/>
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#F3ECE1" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="10 8"/>
+  <!-- Folded & Tailored Chino / Cargo Trousers Silhouette -->
+  <g transform="translate(190, 120)">
+    <!-- Waistband -->
+    <rect x="60" y="30" width="300" height="44" rx="8" fill="#808060" stroke="#30302E" stroke-width="6"/>
+    <!-- Belt loops -->
+    <rect x="95" y="26" width="14" height="52" rx="4" fill="#808060" stroke="#30302E" stroke-width="4"/>
+    <rect x="203" y="26" width="14" height="52" rx="4" fill="#808060" stroke="#30302E" stroke-width="4"/>
+    <rect x="311" y="26" width="14" height="52" rx="4" fill="#808060" stroke="#30302E" stroke-width="4"/>
+    <!-- Button -->
+    <circle cx="210" cy="52" r="9" fill="#C8784C" stroke="#30302E" stroke-width="3"/>
+    <!-- Left & Right Legs -->
+    <path d="M60 74 L360 74 L385 710 L245 710 L215 270 L185 710 L45 710 Z" fill="#808060" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Slant Pockets -->
+    <path d="M64 95 L135 190" stroke="#30302E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M72 95 L143 190" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="6 5"/>
+    <path d="M356 95 L285 190" stroke="#30302E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M348 95 L277 190" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="6 5"/>
+    <!-- Fly stitch -->
+    <path d="M210 74 L210 215 C210 230 232 230 235 210 L235 74" stroke="#30302E" stroke-width="4" stroke-dasharray="6 4"/>
+    <!-- Center outseam & inseam stitch highlights -->
+    <line x1="72" y1="84" x2="60" y2="668" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <line x1="348" y1="84" x2="368" y2="668" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <!-- Turned-up Cuffs -->
+    <rect x="42" y="672" width="146" height="42" rx="6" fill="#66664B" stroke="#30302E" stroke-width="5"/>
+    <rect x="242" y="672" width="146" height="42" rx="6" fill="#66664B" stroke="#30302E" stroke-width="5"/>
+    <line x1="50" y1="684" x2="180" y2="684" stroke="#E9D7BF" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="250" y1="684" x2="380" y2="684" stroke="#E9D7BF" stroke-width="2" stroke-dasharray="6 4"/>
+  </g>
+</svg>

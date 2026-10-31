@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FAF7F2"/>
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#F3ECE1" stroke="#E9D7BF" stroke-width="3" stroke-dasharray="10 8"/>
+  <!-- Heavyweight Cotton Hoodie Silhouette -->
+  <g transform="translate(110, 120)">
+    <!-- Hood -->
+    <path d="M185 160 C165 40 240 10 290 10 C340 10 415 40 395 160 Z" fill="#808060" stroke="#30302E" stroke-width="6"/>
+    <path d="M210 155 C200 70 250 45 290 45 C330 45 380 70 370 155 Z" fill="#66664B" stroke="#30302E" stroke-width="5"/>
+    <!-- Main Torso & Sleeves -->
+    <path d="M185 155 L395 155 L525 235 L560 660 L485 675 L445 335 L445 660 L135 660 L135 335 L95 675 L20 660 L55 235 Z" fill="#808060" stroke="#30302E" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Terracotta Kangaroo Pouch Pocket -->
+    <path d="M175 470 L405 470 L435 555 L425 615 L155 615 L145 555 Z" fill="#C8784C" stroke="#30302E" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M183 482 L397 482 L423 555 L415 603 L165 603 L157 555 Z" stroke="#E9D7BF" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <!-- Ribbed Hem & Cuffs -->
+    <rect x="135" y="655" width="310" height="44" rx="4" fill="#66664B" stroke="#30302E" stroke-width="5"/>
+    <rect x="20" y="655" width="76" height="36" rx="4" transform="rotate(10 20 655)" fill="#66664B" stroke="#30302E" stroke-width="5"/>
+    <rect x="484" y="668" width="76" height="36" rx="4" transform="rotate(-10 484 668)" fill="#66664B" stroke="#30302E" stroke-width="5"/>
+  </g>
+</svg>
