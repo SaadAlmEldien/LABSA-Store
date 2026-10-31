@@ -1,5 +1,6 @@
 # LABSA | لَبسة — Egyptian Men's & Children's Clothing Store (Portfolio Demo)
 
+https://labsa-store.vercel.app/en
 > **لبسة تليق بيك | Crafted to Fit You**
 >
 > **Important Demo Notice**: **LABSA | لَبسة** is a fictional e-commerce portfolio project and is **not** a real operating commercial store. All products, inventory counts, customer orders, payment instructions, shipping updates, notifications, and contact details are simulated for demonstration purposes only. Do not enter real personal or financial data.
